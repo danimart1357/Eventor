@@ -9,9 +9,9 @@ const List = ({places}) => {
     const classes = useStyles();
     return(
        <div className={classes.container}>
-           <Typography variant="h4">Restaurant, Hotels and Entertainment around you!</Typography>
+           <Typography variant="h5">Restaurant, Hotels and Entertainment</Typography>
            <FormControl className={classes.FormControl}>
-               <InputLabel>Type</InputLabel>
+               <InputLabel></InputLabel>
                <Select value={type} onChange={(e)=> setType(e.target.value)}>
                    <MenuItem value='restaurants'>Restaurants</MenuItem>
                    <MenuItem value='hotels'>Hotels</MenuItem>
@@ -19,7 +19,7 @@ const List = ({places}) => {
                </Select>
            </FormControl>
            <FormControl className={classes.FormControl}>
-               <InputLabel>Rating</InputLabel>
+               <InputLabel></InputLabel>
                <Select value={rating} onChange={(e)=> setRating(e.target.value)}>
                    <MenuItem value={0}>All</MenuItem>
                    <MenuItem value={3}>Above 3</MenuItem>
