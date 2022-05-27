@@ -3,11 +3,11 @@ import { Box, Grid, Typography, InputLabel, MenuItem, FormControl, Select, Slide
 import useStyles from './styles';
 import PlaceDetails from "../PlaceDetails/PlaceDetails"
  
-const List = ({places , childClicked, isLoading}) => {
-    const[type, setType] = useState('restaurants');
-    const[rating, setRating] = useState('');
+const List = ({places , childClicked, isLoading, type, setType, rating, setRating}) => {
+
     const classes = useStyles();
     const[elRefs, setElRefs] = useState([]);
+
     useEffect(()=>{
         const refs = Array(places?.length).fill().map((_, i)=> elRefs[i]|| createRef());
 
@@ -30,7 +30,7 @@ const List = ({places , childClicked, isLoading}) => {
                     <Select value={type} onChange={(e)=> setType(e.target.value)}>
                         <MenuItem value='restaurants'>Restaurants</MenuItem>
                         <MenuItem value='hotels'>Hotels</MenuItem>
-                        <MenuItem value='entertainment'>Entertainment</MenuItem>
+                        <MenuItem value='attractions'>Entertainment</MenuItem>
                     </Select>
                 </FormControl>
             </Box>
@@ -54,7 +54,7 @@ const List = ({places , childClicked, isLoading}) => {
                    <Grid  item key={i} xs={12}>
                        <PlaceDetails 
                             place={place}
-                            selected={Number(childClicked) === i}
+                            selected={Number(childClicked)===i}
                             refProps={elRefs[i]}/>
                    </Grid>
                ))}
