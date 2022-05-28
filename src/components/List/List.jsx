@@ -1,5 +1,5 @@
 import React, {useState, useEffect, createRef} from "react";
-import { Box, Grid, Typography, InputLabel, MenuItem, FormControl, Select, Slider, CircularProgress } from "@material-ui/core";
+import { Box, Grid, Typography, InputLabel, MenuItem, FormControl, Select, CircularProgress } from "@material-ui/core";
 import useStyles from './styles';
 import PlaceDetails from "../PlaceDetails/PlaceDetails"
  
@@ -7,6 +7,7 @@ const List = ({places , childClicked, isLoading, type, setType, rating, setRatin
 
     const classes = useStyles();
     const[elRefs, setElRefs] = useState([]);
+
 
     useEffect(()=>{
         const refs = Array(places?.length).fill().map((_, i)=> elRefs[i]|| createRef());
@@ -47,7 +48,7 @@ const List = ({places , childClicked, isLoading, type, setType, rating, setRatin
                        <PlaceDetails 
                             place={place}
                             selected={Number(childClicked)===i}
-                            refProps={elRefs[i]}/>
+                            refProp={elRefs[i]}/>
                    </Grid>
                ))}
            </Grid>
