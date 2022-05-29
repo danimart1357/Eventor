@@ -6,6 +6,7 @@ import List from './components/List/List';
 import Map from './components/Map/Map';
 import PlaceDetails from './components/PlaceDetails/PlaceDetails';
 import {getPlacesData} from './components/api/index';
+import { getWeatherData } from './components/api/index';
 
 const App = () => {
   const [places, setPlaces] = useState([]);
@@ -16,6 +17,7 @@ const App = () => {
   const[type, setType] = useState('restaurants');
   const[rating, setRating] = useState('');
   const [filteredPlaces, setFilteredPlaces] = useState([]);
+  const [weatherData, setWeatherData] = useState([]);
   
   
   useEffect(()=>{
@@ -31,6 +33,9 @@ const App = () => {
 
   useEffect(()=>{
     setIsLoading(true);
+    getWeatherData(coordinates.lat, coordinates.lng)
+      .then((data)=>setWeatherData(data));
+
       getPlacesData(type, bounds.sw, bounds.ne)
       .then((data)=>{
         setPlaces(data);
@@ -62,6 +67,7 @@ const App = () => {
               coordinates={coordinates}
               places={filteredPlaces.length ? filteredPlaces : places}
               setChildClicked={setChildClicked}
+              weatherData={weatherData}
             />
         </Grid>
       </Grid>
