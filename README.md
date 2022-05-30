@@ -11,9 +11,11 @@ For my original idea I wanted to create a CRUD app only designed for web browser
 
 ### _Basic Wireframing_ :
 
-![BasicTables](images/BasicTables.png)
-![HomePage](images/HomePage.png)
-![SearchPage](images/SearchPage.png)
+<img src="images/BasicTables.png" width="200">
+
+<img src="images/HomePage.png" width="200">
+
+<img src="images/SearchPage.png" width="200">
 
 ## Idea Number 2 
 
@@ -23,7 +25,6 @@ This idea would remain in the same concept of randomly generating a restaurant f
 
 
 ## _Basic Wireframing_ : 
-
-![HomePage2](images/HomePage2.png)
-![SearchButton2](images/SearchButton2.png)
+<img src="images/HomePage2.png" width="200">
+<img src="images/SearchButton2.png" width="200">
 
