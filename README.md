@@ -28,3 +28,15 @@ This idea would remain in the same concept of randomly generating a restaurant f
 <img src="images/HomePage2.png" width="200">
 <img src="images/SearchButton2.png" width="200">
 
+<br/>
+
+
+<br/>
+
+----------
+## **Final MVP Idea** 
+
+For the final MVP idea I decided to build a nicely styled React front end application that works well and responsively on both computers and phones.
+
+I wanted to create an application that was able to display a map on the screen using a [Google API](https://developers.google.com/maps)
+
