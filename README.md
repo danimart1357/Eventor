@@ -38,5 +38,7 @@ This idea would remain in the same concept of randomly generating a restaurant f
 
 For the final MVP idea I decided to build a nicely styled React front end application that works well and responsively on both computers and phones.
 
-I wanted to create an application that was able to display a map on the screen using a [Google API](https://developers.google.com/maps)
+I wanted to create an application that was able to display a map on the screen using a [Google API](https://developers.google.com/maps). I also wanted the information displayed of the locations to the side of the map.
+
+Hvaing done some research I came acrros a [Travel API](https://rapidapi.com/apidojo/api/travel-advisor/) which allowed me to find places like Hotels, Restaurants and attractions in an area so I decided to use this to pull my information and display it on the page.
 
