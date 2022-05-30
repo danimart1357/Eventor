@@ -11,8 +11,19 @@ For my original idea I wanted to create a CRUD app only designed for web browser
 
 ### _Basic Wireframing_ :
 
-![title](Images/BasicTables.png)
-![title](Images/HomePage.png)
-![title](Images/SearchPage.png)
+![BasicTables](images/BasicTables.png)
+![HomePage](images/HomePage.png)
+![SearchPage](images/SearchPage.png)
 
 ## Idea Number 2 
+
+Given the previous projects that I have qorked on I decided to put my skills to the test and change what I was going to do. I decided that I wanted to make an application that was more user friendly and visually appealing. I decide to make the back-end and database set up a stretch goal and make a front-end based application.
+
+This idea would remain in the same concept of randomly generating a restaurant for someone to discover but have the restaurant pull infromation from an API to display the address, reviews and a map of the location. I was also considering using Material UI or Bootstrap for the styling of the application. Given this was going to be a user friendly application I knew I wanted to use React to ensure that the application was interactive.
+
+
+## _Basic Wireframing_ : 
+
+![HomePage2](images/HomePage2.png)
+![SearchButton2](images/SearchButton2.png)
+
