@@ -1,7 +1,15 @@
 # **Welcome to Eventor**
 
+### Link to the live site : [Eventor](https://eventor-planner.netlify.app/)
+
 Eventor is a phone and web based application for introverted and indecisive people to help them decide what to do on a night out. It nicely displays a map when you have the option to search for the city anywhere in the world to go to. Once you have the city you have 3 different categories for fun - Restaurants, Hotels and Entertainment. Once a catergory and a destination have been set the app will display all of the information on the page with photos, ratings, websites, addresses and weather in the local area.
 
+## **Built with:**
+1. React
+2. Material UI
+3. Google maps API
+4. Travel Advisor API
+5. Weather API
 ------------------
 
 
@@ -38,7 +46,10 @@ This idea would remain in the same concept of randomly generating a restaurant f
 
 For the final MVP idea I decided to build a nicely styled React front end application that works well and responsively on both computers and phones.
 
-I wanted to create an application that was able to display a map on the screen using a [Google API](https://developers.google.com/maps). I also wanted the information displayed of the locations to the side of the map.
+I wanted to create an application that was able to display a map on the screen using a [Google API](https://developers.google.com/maps). I also wanted the information displayed of the locations to the side of the map. I also wanted to include a search bar in my project as the main reason why the previous idea failed and I no longer wnated to do the randomization of the results is that the user would need to have a location of where they want to go. People dont always want to go out in their direct vacinity and knowing where the person intends on going with a randomizer would be not be something I wanted to do. I decided that having a search bar as well as havig the option of using the browsers in built location to search for near by places was the way to go.
 
 Hvaing done some research I came acrros a [Travel API](https://rapidapi.com/apidojo/api/travel-advisor/) which allowed me to find places like Hotels, Restaurants and attractions in an area so I decided to use this to pull my information and display it on the page.
+
+I came to the decision to use Material UI in my project due to past experience with the program as well as being able to be more customaziable and having more information on the internet than Bootstrap.
+
 
