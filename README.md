@@ -52,4 +52,6 @@ Hvaing done some research I came acrros a [Travel API](https://rapidapi.com/apid
 
 I came to the decision to use Material UI in my project due to past experience with the program as well as being able to be more customaziable and having more information on the internet than Bootstrap.
 
+## _Basic Wireframing_:
+<img src="images/FinalHomePage.png" >
 
