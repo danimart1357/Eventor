@@ -55,3 +55,7 @@ I came to the decision to use Material UI in my project due to past experience w
 ## _Basic Wireframing_:
 <img src="images/FinalHomePage.png" >
 
+
+
+## Future Plans :
+For sututre plans on this project I intend on adding a back end using Ruby from there I will be implementing a user sign in and sign up functionality where the user will be able to store all of the places that they have been to and as well as be able to make comments, like and dislike. 
